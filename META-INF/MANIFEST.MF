@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: pf-storage
+Bundle-SymbolicName: pf-storage
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.secpro.platform.storage.Activator
+Bundle-Vendor: secpro
+Require-Bundle: org.eclipse.core.runtime,
+ com.secpro.platform.core;bundle-version="1.0.0",
+ com.secpro.platform.log;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: com.mchange.v2.c3p0,
+ oracle.jdbc.driver
