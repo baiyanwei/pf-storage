@@ -12,3 +12,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Import-Package: com.mchange.v2.c3p0,
  oracle.jdbc.driver
+Export-Package: com.secpro.platform.storage.services
